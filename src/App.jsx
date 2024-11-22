@@ -1,4 +1,5 @@
 import "./App.css";
+import Counter from "./components/counter/counter";
 import LikeButton from "./components/like-button/like-button";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
       <h1 className="mb-4"> LAB | React Training</h1>
       <LikeButton />
       <LikeButton />
+      <Counter />
     </div>
   );
 }
