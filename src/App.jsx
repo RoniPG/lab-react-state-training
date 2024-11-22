@@ -1,4 +1,5 @@
 import "./App.css";
+import Carousel from "./components/carousel/carousel";
 import ClickablePicture from "./components/clickable-picture/clickable-picture";
 import Counter from "./components/counter/counter";
 import Dice from "./components/dice/dice";
@@ -15,6 +16,14 @@ function App() {
       <ClickablePicture />
       <Dice />
       <DiscoButton />
+      <Carousel
+        images={[
+          "https://randomuser.me/api/portraits/women/1.jpg",
+          "https://randomuser.me/api/portraits/men/1.jpg",
+          "https://randomuser.me/api/portraits/women/2.jpg",
+          "https://randomuser.me/api/portraits/men/2.jpg"
+        ]}
+      />
     </div>
   );
 }
